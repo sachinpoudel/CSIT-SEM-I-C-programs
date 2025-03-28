@@ -1,3 +1,4 @@
+//prime numbers upto n terms
 #include <stdio.h>
 #include <stdbool.h>
 

@@ -1,3 +1,4 @@
+// this program shows the details of emp1 and emp2 entered by user in tabular format
 #include <stdio.h>
 
 struct employee {

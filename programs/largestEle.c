@@ -1,3 +1,4 @@
+// this program will find the largest element of each row of matrix
 #include <stdio.h>
 
 int main() {

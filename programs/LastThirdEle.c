@@ -38,7 +38,7 @@ int main()
     if(n>=3){
         printf("\nThe third largest element of array is %d", arr[n-3]);
         printf("\nThe second largest element of array is %d", arr[n-2]);
-        printf("\nThe third largest element of array is %d", arr[n-1]);
+        printf("\nThe  largest element of array is %d", arr[n-1]);
     }else{
         printf("Invalid");
 

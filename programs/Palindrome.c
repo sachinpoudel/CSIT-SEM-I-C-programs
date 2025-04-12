@@ -1,12 +1,13 @@
+// this program will check the word entered by user is palindrome or not
 #include <stdio.h>
 #include <string.h>
 
 int main() {
     char word[100], reversed[100];
-    int length, flag = 1;  // Initialize flag as 1 (assume palindrome)
+    int length, flag = 1;  
 
-    printf("Enter the word or number: ");
-    scanf("%s", word);  // Use %s for string input
+    printf("Enter the word : ");
+    scanf("%s", word);  
 
     length = strlen(word);
 
@@ -14,7 +15,7 @@ int main() {
     for (int i = 0; i < length; i++) {
         reversed[i] = word[length - i - 1];
     }
-    reversed[length] = '\0';  // Adding null terminator
+    reversed[length] = '\0';
 
     // Checking for palindrome
     for (int i = 0; i < length; i++) {
